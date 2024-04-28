@@ -6,10 +6,14 @@
     <title>Gorki</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <header class="container">
+        <h1 class="logo">Gorki</h1>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <div class="collapse navbar-collapse">
@@ -42,44 +46,137 @@
     </header>
 
     <main>
-        <section class="container tiffany-blue-bg">
-            
+        <section class="tiffany-blue-bg">
+            <div class="container">
+                <div id="carouselHeader" class="carousel slide container" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div>
+                                <img src="./images/gorki_1.png" alt="">
+                                <div>
+                                    <p></p>
+                                    <p></p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div>
+                                <img src="./images/gorki_2.png" alt="">
+                                <div>
+                                    <p>Premiere 02/03/2024</p>
+                                    <p>Alice im Wunderland</p>
+                                    <p>Direction: Oliver Frljic</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div>
+                                <img src="./images/gorki_3.png" alt="">
+                                <div>
+                                    <p>Premier 10/02/2024</p>
+                                    <p>Hund, Wolf, Schakal</p>
+                                    <p>Direction: Nurkan Empulat</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div>
+                                <img src="./images/gorki_4.png" alt="">
+                                <div>
+                                    <p>Premier 10/02/2024</p>
+                                    <p>I’m a girl you can hold IRL</p>
+                                    <p>Direction: Zelal Yesulurt</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div>
+                                <img src="./images/gorki_5.png" alt="">
+                                <div>
+                                    <p>Premier 06/04/2024</p>
+                                    <p>Deutschlandmachen</p>
+                                    <p>Direction: Hakan Savas Mican</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeader" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselHeader" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
         </section>
 
-        <section class="container">
+        <section class="container" id="tickets">
             <div>
                 <h2>Tickets</h2>
                 <hr>
             </div>
-            <div class="tiffany-blue-bg">
+            <div class="tiffany-blue-bg tickets">
                 <p>BOX OFFICE</p>
                 <p>Ticket Sale</p>
                 <p>Box Office in the Foyer</p>
-                <p>Mo–Sa: 12–6:30 PM</p>
-                <p>Sunday & Holiday: 4–6:30 PM</p>
-
+                <p>Mo-Sa: 12-6:30 PM</p>
+                <p>Sunday & Holiday: 4-6:30 PM</p>
+                <br>
                 <p>ticket@gorki.de</p>
                 <p>030 20221115</p>
-
+                <br>
                 <p>Maxim Gorki Theater</p>
                 <p>Am Festungsgraben 2</p>
                 <p>10117 Berlin</p>
             </div>
         </section>
 
-        <section class="container">
+        <section class="container" id="news">
             <div>
                 <h2>News</h2>
                 <hr>
             </div>
+            <div class="tiffany-blue-bg">
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            <img src="./images/news_1.png" alt="">
+                            <div>
+                                <p>Positive Brainwash - Good News!</p>
+                                <p>Gorki youth club The Aktionist*innen</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <img src="./images/news_2.png" alt="">
+                            <div>
+                                <p>News</p>
+                                <p>STAGEDIVING</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <img src="./images/news_3.png" alt="">
+                            <div>
+                                <p>SKLAMBERG & THE SHEPHERDS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section class="container">
+        <section class="container" id="press">
             <div>
                 <h2>Press</h2>
                 <hr>
             </div>
-            <div>
+            <div class="press">
                 <p>Nino Medas (Head of Press and Communication)</p>
                 <p>Phone 030 - 20221-392</p>
                 <p>Fax 030 - 20221-212</p>
@@ -88,14 +185,14 @@
                 <p>Phone 030 - 20221-355</p>
                 <p>Fax 030 - 20221-212</p>
                 <p>presse@gorki.de</p>
-
+                <br>
                 <p>Maxim Gorki Theater Berlin</p>
                 <p>Am Festungsgraben 2</p>
                 <p>10117 Berlin</p>
             </div>
         </section>
 
-        <section class="container">
+        <section class="container" id="ensemble">
             <div>
                 <h2>Ensemble</h2>
                 <hr>
@@ -123,17 +220,158 @@
             </div>
         </section>
 
-        <section class="container">
+        <section class="container" id="projects">
             <div>
                 <h2>Projects</h2>
                 <hr>
+            </div>
+            <div class="tiffany-blue-bg">
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            <img src="./images/project_1.png" alt="">
+                            <div>
+                                <p>23/24/29/FEBRUAR</p>
+                                <p>FREMD</p>
+                                <p>Studio Я</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <img src="./images/project_2.png" alt="">
+                            <div>
+                                <p>24/25/JANUAR</p>
+                                <p>YAHYA HASSAN</p>
+                                <br>
+                                <p>Studio Я</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <img src="./images/project_3.png" alt="">
+                            <div>
+                                <p>FAEMDE POESIE? #3</p>
+                                <p>TO BE IN A TIME OF WAR</p>
+                                <br>
+                                <p>Studio Я</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <img src="./images/project_4.png" alt="">
+                            <div>
+                                <p>NACHGESPRÄCH IM LABORFORMAT</p>
+                                <p>PUBLIC TALK zu AMORE</p>
+                                <br>
+                                <p>Gorki X</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row">
+                <div class="col">
+                    <div>
+                        <h2>Contact us</h2>
+                        <hr>
+                    </div>
+                    <div>
+                        <p>Phone: 030 20221-115</p>
+                        <br>
+                        <p>(Fax -128)</p>
+                        <br>
+                        <p>E-Mail: ticket@gorki.de</p>
+                    </div>
+                    <button type="button" class="btn">LEARN MORE</button>
+                </div>
+                <div class="col">
+                    <div>
+                        <h2>Location</h2>
+                        <hr>
+                    </div>
+                    <div>
+                        <img src="./images/location.png" alt="">
+                    </div>
+                    <button type="button" class="btn">LEARN MORE</button>
+                </div>
+                <div class="col">
+                    <div>
+                        <h2>Accessibility</h2>
+                        <hr>
+                    </div>
+                    <div>
+                        <p>
+                            Surtitles: All of our German-
+                            language productions,
+                            except for their premieres,
+                            are performed with English
+                            surtitles. Our productions in
+                            languages other than
+                            German are presented
+                            with German surtitles.
+                        </p>
+                        <br>
+                        <p>
+                            German Sign
+                            Language: Events with a
+                            sign-language interpreter
+                            are announced in the
+                            monthly calendar.
+                        </p>
+                        <br>
+                        <p>
+                            Audio description: The Maxim
+                            Gorki Theatre cannot provide
+                            audio description for blind or
+                            vision-impaired visitors at
+                            present.
+                        </p>
+                    </div>
+                    <button type="button" class="btn">LEARN MORE</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row">
+                <div class="col tiffany-blue-bg">
+                    Are we once again living in a society in transition?
+                    The question inevitably arises when we are faced with a permanent crisis in
+                    economy and politics, a crisis which results in even more severe
+                    social and cultural conflicts in our societies. The Gorki is opening
+                    itself up to the city: with its wonderful ensemble, with Studio Я, with
+                    the Gorki columnists Mely Kıyak and Can Dündar and our colleagues
+                    from Gorki X, who all invite you to get involved.
+                </div>
+                <div class="col">
+                    <h2>History</h2>
+                    <hr>
+                    <h2>Team</h2>
+                    <hr>
+                    <h2>Partners</h2>
+                    <hr>
+                    <h2>Work</h2>
+                    <hr>
+                </div>
             </div>
         </section>
     </main>
 
     <footer class="tiffany-blue-bg">
         <div class="container">
-            <h1>Footer</h1>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col">
+                    <div class="logo">Gorki</div>
+                </div>
+            </div>
         </div>
     </footer>
 </body>

@@ -1,3 +1,46 @@
+body {
+    font-family: "Tektur", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #1E1E1E;
+
+}
+
+.logo {
+    text-align: center;
+    font-weight: 700;
+    font-size: 92px;
+    color: #09080C;
+
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
 .tiffany-blue-bg {
     background-color: #99E1D9;
+}
+
+.tickets::first-line {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.5px;
+}
+
+.tickets {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19.5px;
+}
+
+.press {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.5px;
 }
