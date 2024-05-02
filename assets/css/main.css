@@ -1,0 +1,184 @@
+body{
+    font-family: "Tektur", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #1E1E1E;
+}
+.logo {
+	text-align: center;
+	font-weight: 700;
+	font-size: 92px;
+	color: #09080C;
+}
+.nav.container navbar{
+	text-align: center;
+}
+nav-item{
+	text-align: justify-all;
+	text-align: center;
+}
+nav-link{
+	text-align: center;
+}
+.tiffany-blue-bg {
+	background-color: #99E1D9;
+}
+.tickets::first-line {
+	font-weight: 700;
+}
+.tickets {
+	color: #31292F;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 19.5px;
+}
+#news p {
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 19.5px;
+}
+.press {
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 19.5px;
+}
+#projects p {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 20.8px;
+}
+#carouselHeader p {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 20.8px;
+}
+.learn-more-btn {
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 19.5px;
+	text-align: center;
+	color: #31292F;
+	background: #A8DFD9;
+}
+.learn-more-btn hover {
+	background: #A8DFD9;
+}
+.information {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: stretch;
+}
+.information .btn-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+.footer ul {
+	list-style-type: none;
+}
+.footer li {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 31.2px;
+	color: #31292F;
+}
+.footer .col {
+	margin-top: 80px;
+}
+#back_to_top {
+	position: fixed;
+	bottom: 50px;
+	right: 15px;
+	cursor: pointer;
+	z-index:10000;
+	color:#333;
+}
+.dropdown-menu li:hover .sub-menu {
+	visibility: visible;
+}
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+.centratutto{
+	text-align: left;
+}
+.carosellamultiplo .carousel-inner .carousel-item.active, .carosellamultiplo .carousel-inner .carousel-item2.active, .carosellamultiplo .carousel-inner .carousel-item-next, .carosellamultiplo .carousel-inner .carousel-item-prev {
+	display: flex;
+}
+.carosellamultiplo .carousel-control-prev-icon, .carosellamultiplo .carousel-control-next-icon{
+	text-align:center;
+}
+.carosellamultiplo .carousel-control-prev .fas, .carosellamultiplo .carousel-control-next .fas {
+	font-size:25px;
+}
+.carosellamultiplo .carouselloff .card-img img{
+	width:97% !important;
+}
+.carosellamultiplo .card-img {
+	text-align: center !important;
+}
+.carosellamultiplo .carousel-control-prev {
+	justify-content: left !important;
+	text-align: left !important;
+	left: -5px !important;
+}
+.carosellamultiplo .carousel-control-next {
+	justify-content: right !important;
+	text-align: right !important;
+}
+.carosellamultiplo .card{
+	text-align:left;
+	border:0px !important;
+}
+.carosellamultiplo h4 a{
+	color:#31859c;
+	font-weight:800;
+	font-size:16px;
+	text-decoration:none;
+}
+.carosellamultiplo h4 a:hover{
+   color: #e76d21;
+}
+.carosellamultiplo h4{
+	line-height:0.8em !important;
+	margin-bottom:15px;
+	margin-top:15px;
+}
+.date{
+	font-weight:800;
+	font-size:14px;
+}
+.testinooff{
+	font-size:13px;
+	font-weight:300;
+}
+.carosellamultiplo .carousel-inner .carousel-item-next {
+	display: flex;
+}
+.carosellamultiplo .carousel-item-next, .carosellamultiplo .carousel-item-prev, .carosellamultiplo .carousel-item.active {
+	display: block;
+}
+/*fine carousel*/
+/* RESPONSIVE CSS -------------------------------------------------- */
+@media screen and (min-width: 770px) and (max-width: 1999px) {
+	.container header {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+   }
+}
+@media screen and (min-width: 500px) and (max-width: 769px) {
+	.carousel-item {
+		height: 400px;
+   }
+}
+@media screen and (max-width: 499px) {
+	.carousel-item {
+		height: 300px;
+   }
+}
